@@ -1,0 +1,16 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 10rem;
+  border: 1px solid #000;
+}
+
+@media (min-width: 50rem) {
+  .task-list {
+    flex-direction: row;
+  }
+}
